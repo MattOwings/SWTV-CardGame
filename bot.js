@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 
-require("dotenv/config");
-require("./index.js"); // Grabs password from .env
+require("dotenv/config"); // Grabs password from .env
 
 const client = new Discord.Client({
     intents: ["GUILDS", "GUILD_MESSAGES"],
